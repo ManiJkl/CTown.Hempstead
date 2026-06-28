@@ -1,8 +1,8 @@
 const links = [
   {
     label: 'TikTok',
-    description: 'Ver videos y contenido corto.',
-    url: 'https://www.tiktok.com/',
+    description: 'Watch videos and short-form content.',
+    url: 'https://www.tiktok.com/@ctownsupermarket445?_r=1&_t=ZP-97b24i1WWCd',
     accent: '#111111',
     icon: `
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="TikTok">
@@ -14,8 +14,8 @@ const links = [
   },
   {
     label: 'Instagram',
-    description: 'Fotos, historias y novedades.',
-    url: 'https://www.instagram.com/',
+    description: 'Photos, stories, and updates.',
+    url: 'https://www.instagram.com/ctown445hempstead?igsh=anJiN3EwZmtkeTI0&utm_source=qr',
     accent: '#e1306c',
     icon: `
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Instagram">
@@ -34,9 +34,9 @@ const links = [
     `
   },
   {
-    label: 'Dejar reseña en Maps',
-    description: 'Abrir Google Maps para escribir una opinión.',
-    url: 'https://www.google.com/maps',
+    label: 'Leave a review on Maps',
+    description: 'Open Google Maps to write a review.',
+    url: 'https://www.google.com/maps/place/CTown+Supermarkets/@40.6919444,-73.6225,17z/data=!3m1!4b1!4m6!3m5!1s0x89c27cef14207741:0xd61a01f8b79886b0!8m2!3d40.6919444!4d-73.6225!16s%2Fg%2F12mj_rzb3!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDYyNC4wIKXMDSoASAFQAw%3D%3D',
     accent: '#4285f4',
     icon: `
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Google Maps">

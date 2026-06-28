@@ -1,20 +1,20 @@
 # Daltoniko Links
 
-Sitio web estático tipo Linktree listo para publicar en GitHub Pages.
+Static Linktree-style website ready to publish on GitHub Pages.
 
-## Cómo usarlo
+## How to use it
 
-1. Reemplaza los enlaces de `app.js` por tus redes reales.
-2. Sube estos archivos a un repositorio de GitHub.
-3. Activa GitHub Pages en el repositorio.
-4. Abre la URL publicada y descarga el QR desde la propia página.
+1. Replace the links in `app.js` with your real social accounts.
+2. Upload these files to a GitHub repository.
+3. Enable GitHub Pages in the repository.
+4. Open the published URL and download the QR from the page itself.
 
-## Archivos
+## Files
 
-- `index.html`: estructura principal.
-- `styles.css`: apariencia visual.
-- `app.js`: enlaces y QR.
+- `index.html`: main structure.
+- `styles.css`: visual appearance.
+- `app.js`: links and QR.
 
-## Nota sobre el QR
+## QR note
 
-El QR se genera con la URL actual de la página. Cuando GitHub Pages publique el sitio, el código quedará apuntando a esa dirección.
+The QR is generated from the current page URL. When GitHub Pages publishes the site, the code will point to that address.
