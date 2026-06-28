@@ -1,50 +1,225 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Linktree-style page to share links and access them by QR." />
-    <title>Daltoniko | Links</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <main class="page-shell">
-      <section class="hero-card">
-        <div class="hero-copy">
-          <p class="eyebrow">Quick links</p>
-          <h1>FOLLOW US TO WIN!</h1>
-          <p class="intro">
-            Access our social channels and leave your review on Maps.
-          </p>
-        </div>
-      </section>
 
-      <section class="links-card" id="links">
-        <div class="section-head">
-          <div>
-            <p class="panel-label">Connect with me</p>
-            <h2>Choose an option</h2>
-          </div>
-          <p class="section-note">Change the links in <span>app.js</span> whenever you want.</p>
-        </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Follow Us To Win</title>
 
-        <div class="links-grid" id="linksGrid" aria-label="Links list"></div>
-      </section>
-    </main>
+    <link rel="stylesheet" href="style.css">
 
-    <template id="linkTemplate">
-      <a class="link-tile" target="_blank" rel="noreferrer noopener">
-        <div class="link-icon" aria-hidden="true"></div>
-        <div class="link-copy">
-          <strong></strong>
-          <span></span>
-        </div>
-        <span class="link-arrow" aria-hidden="true">↗</span>
-      </a>
-    </template>
-    <script src="app.js"></script>
-  </body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- ===============================
+            FONDO DECORATIVO
+    ================================ -->
+
+    <div class="background">
+
+        <div class="blob blob1"></div>
+        <div class="blob blob2"></div>
+        <div class="blob blob3"></div>
+
+    </div>
+
+    <!-- ===============================
+            DECORACIONES
+    ================================ -->
+
+    <img src="img/star.png" class="floating star star1" alt="">
+    <img src="img/star.png" class="floating star star2" alt="">
+    <img src="img/star.png" class="floating star star3" alt="">
+
+    <img src="img/heart.png" class="floating heart heart1" alt="">
+    <img src="img/heart.png" class="floating heart heart2" alt="">
+
+    <!-- ===============================
+            CONTENEDOR
+    ================================ -->
+
+    <div class="container">
+
+        <!-- ===============================
+                HEADER
+        ================================ -->
+
+        <header class="hero">
+
+            <img src="img/logo.png"
+                 alt="Logo"
+                 class="logo">
+
+            <div class="social-icons">
+
+                <a href="#" target="_blank" class="social">
+                    <img src="img/facebook.png" alt="">
+                </a>
+
+                <a href="#" target="_blank" class="social">
+                    <img src="img/instagram.png" alt="">
+                </a>
+
+                <a href="#" target="_blank" class="social">
+                    <img src="img/tiktok.png" alt="">
+                </a>
+
+            </div>
+
+            <!-- PNG -->
+
+            <img src="img/titulo.png"
+                 class="title"
+                 alt="Follow Us To Win">
+
+            <p class="subtitle">
+
+                We value your feedback.
+                <br>
+                Please share it with us.
+
+            </p>
+
+        </header>
+
+        <!-- ===============================
+                PASOS
+        ================================ -->
+
+        <section class="steps">
+
+            <!-- PASO 1 -->
+
+            <a href="https://www.tiktok.com/@ctownsupermarket445?_r=1&_t=ZP-97b24i1WWCd"
+               class="card reveal">
+
+                <div class="shine"></div>
+
+                <div class="card-image">
+
+                    <img src="img/tiktok.png" alt="TikTok">
+
+                </div>
+
+                <div class="card-text">
+
+                    <div class="number">
+                        1
+                    </div>
+
+                    <h2>
+
+                        Follow us on TikTok
+
+                    </h2>
+
+                    <p>
+
+                        Open your camera and scan our QR code.
+
+                    </p>
+
+                </div>
+
+            </a>
+
+            <!-- PASO 2 -->
+
+            <a href="https://www.instagram.com/ctown445hempstead?igsh=anJiN3EwZmtkeTI0&utm_source=qr"
+               class="card reverse reveal">
+
+                <div class="shine"></div>
+
+                <div class="card-image">
+
+                    <img src="img/phone.png" alt="Phone">
+                    <img src="img/instagram.png" alt="Instagram">
+
+                </div>
+
+                <div class="card-text">
+
+                    <div class="number">
+                        2
+                    </div>
+
+                    <h2>
+
+                        Follow us on Instagram
+
+                    </h2>
+
+                    <p>
+
+                        
+
+                    </p>
+
+                </div>
+
+            </a>
+
+            <!-- PASO 3 -->
+
+            <a href="https://maps.app.goo.gl/mBQ9FF4NEHr2zsnn8?g_st=ic"
+               class="card reveal">
+
+                <div class="shine"></div>
+
+                <div class="card-image">
+
+                    <img src="img/review.png" alt="Google Review">
+
+                </div>
+
+                <div class="card-text">
+
+                    <div class="number">
+                        3
+                    </div>
+
+                    <h2>
+
+                        Leave us a Google Review
+
+                    </h2>
+
+                    <p>
+
+                        Tell us about your experience with us.
+
+                    </p>
+
+                </div>
+
+            </a>
+
+        </section>
+
+    </div>
+
+    <!-- ===============================
+            FOOTER
+    ================================ -->
+
+    <footer>
+
+        <p>
+
+            Thank you for your support ❤️
+
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
 </html>
